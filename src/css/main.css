@@ -25,16 +25,32 @@ align-items: center;
 flex-shrink: 0;
 }
 .navigation{
+  display: flex;
+  padding: 20px 30px;
+  align-items: flex-start;
+  gap: 20px;
   background-color:white;
+  border-radius:32px;
 }
 .lang-contact{
   display: flex;
 }
 .language{
-  
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
   background-color: white;
+  border-radius: 100%;
 }
 .Contact{
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
   background-color:white;
+  border-radius:100%;
 }
 
