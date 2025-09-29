@@ -5,7 +5,9 @@
   
 }
 body{
+  
   background-color:#E9E9E9;
+
 }
 a {
   color: inherit;
@@ -16,11 +18,17 @@ video {
   display: block;
 }
 .top-bar{
-  display: flex;
+ display: flex;
+padding: 20px 50px;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
 }
 .navigation{
-
   background-color:white;
+}
+.lang-contact{
+  display: flex;
 }
 .language{
   
